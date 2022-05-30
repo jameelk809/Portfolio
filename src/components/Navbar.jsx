@@ -5,6 +5,7 @@ import useResizeObserver from "../hooks/useResizeObserver";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { mainBody, repos, about, skills } from "../editable-stuff/config.js";
+import Experience from "./home/Experience";
 
 const Navigation = React.forwardRef((props, ref) => {
   // const { showBlog, FirstName } = config;
@@ -50,6 +51,14 @@ const Navigation = React.forwardRef((props, ref) => {
               <Link to={process.env.PUBLIC_URL + "/blog"}>Blog</Link>
             </Nav.Link>
           } */}
+          {about.show && (
+            <Nav.Link
+              className="nav-link lead"
+              href={process.env.PUBLIC_URL + "/#aboutme"}
+            >
+              About
+            </Nav.Link>
+          )}
           {repos.show && (
             <Nav.Link
               className="nav-link lead"
@@ -66,14 +75,7 @@ const Navigation = React.forwardRef((props, ref) => {
           >
             Resume
           </Nav.Link>
-          {about.show && (
-            <Nav.Link
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#aboutme"}
-            >
-              About
-            </Nav.Link>
-          )}
+
           {skills.show && (
             <Nav.Link
               className="nav-link lead"
@@ -82,6 +84,12 @@ const Navigation = React.forwardRef((props, ref) => {
               Skills
             </Nav.Link>
           )}
+          <Nav.Link
+            className="nav-link lead"
+            href={process.env.PUBLIC_URL + "/#experience"}
+          >
+            Education
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

@@ -13,113 +13,58 @@ const Experience = () => {
 		<Container className="p-7">
 			<h2 className="display-4 pb-5 text-center">Education</h2>
 			 <VerticalTimeline>
-				  <VerticalTimelineElement
-					className="vertical-timeline-element--work"
-					contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-					contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-					date="2018 - 2020"
-					iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-					icon={<WorkIcon />}
-				  >
-					<h3 className="vertical-timeline-element-title">Founder(2018-)</h3>
-					<h4 className="vertical-timeline-element-subtitle">NeoMentor Thrissur, Kerala, India</h4>
-					<p>
-					  Administration,Service delivery, Teaching, Management, Digital sales.
-					</p>
-				  </VerticalTimelineElement>
-				  
-				  <VerticalTimelineElement
-					className="vertical-timeline-element--education"
-					contentStyle={{ background: 'rgb(0,0,128)', color: '#fff' }}
-					contentArrowStyle={{ borderRight: '7px solid  rgb(0,0,128)' }}
-					date="2017"
-					iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-					icon={<SchoolIcon />}
-				  >
-					<h3 className="vertical-timeline-element-title">Pearson Test for English (2017
-) </h3>					
-					<p>
-					 Score overall 86 (9 Band or C2 level) in PTE academic .
-					</p>
-				  </VerticalTimelineElement>
-				  
-				  <VerticalTimelineElement
-					className="vertical-timeline-element--work"
-					contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-					contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-					date="2014 - 2018"
-					iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-					icon={<WorkIcon />}
-				  >
-					<h3 className="vertical-timeline-element-title">Founder (2014-2018)</h3>
-					<h4 className="vertical-timeline-element-subtitle">OnTime Thrissur, Kerala, India</h4>
-					<p>
-					  Administration,Service delivery, Sourcing,  Management , Overseas Trade, Digital sales.
-					</p>
-				  </VerticalTimelineElement>
-				  
-				   <VerticalTimelineElement
-					className="vertical-timeline-element--education"
-					contentStyle={{ background: 'rgb(0,0,128)', color: '#fff' }}
-					contentArrowStyle={{ borderRight: '7px solid  rgb(0,0,128)' }}
-					date="2012-2014"
-					iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-					icon={<SchoolIcon />}
-				  >
-					<h3 className="vertical-timeline-element-title">M.Tech (2012-2014)
-					</h3><h4 className="vertical-timeline-element-subtitle">(Signal Processing and Embedded systems). Kannur University.</h4>					
-					<p>
-					 Thesis: Effect of Variations in Dimensions and self heating on FinFET .
-					</p>
-				  </VerticalTimelineElement>
-				  
-				  				  
-				  <VerticalTimelineElement
-					className="vertical-timeline-element--work"
-					contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-					contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-					date="2009 - 2012"
-					iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-					icon={<WorkIcon />}
-				  >
-					<h3 className="vertical-timeline-element-title">Engineer (Instrumentation ) (2008-2012)</h3>
-					<h4 className="vertical-timeline-element-subtitle">Konstelec Engineer Pvt. Ltd, India</h4>
-					<p>
-					  Worked in Capacity Expansion cum Modernisation Project Phase II of Bpcl
-					</p>
-				  </VerticalTimelineElement>
-				    
-				  				  
-				  <VerticalTimelineElement
-					className="vertical-timeline-element--work"
-					contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-					contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-					date="2007 - 2009"
-					
-					iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-					icon={<WorkIcon />}
-				  >
-					<h3 className="vertical-timeline-element-title">Team Lead ( (2007-2009)</h3>
-					<h4 className="vertical-timeline-element-subtitle">Sutherland Global Service Limited</h4>
-					<p>
-					  Worked with Sutherland Global Services for McAfee.Worked as Team Lead from July 2008 to January 2009.
-					</p>
-				  </VerticalTimelineElement>
-				  
-				   <VerticalTimelineElement
-					className="vertical-timeline-element--education"
-					contentStyle={{ background: 'rgb(0,0,128)', color: '#fff' }}
-					contentArrowStyle={{ borderRight: '7px solid  rgb(0,0,128)' }}
-					date="2002-2006"
-					iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-					icon={<SchoolIcon />}
-				  >
-					<h3 className="vertical-timeline-element-title">B.Tech (2002-2006)
-					</h3><h4 className="vertical-timeline-element-subtitle">(Electronics and Communication). Cochin University.</h4>					
-					<p>
-					 Project : Standalone Ethernet Phone .
-					</p>
-				  </VerticalTimelineElement>
+			 <VerticalTimelineElement
+						className="vertical-timeline-element--work"
+						contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+						contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+						date="2019 - 2023"
+						iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+						icon={<SchoolIcon />}
+					>
+						<h3 className="vertical-timeline-element-title">B. Tech (2019-2023)</h3>
+						<h4 className="vertical-timeline-element-subtitle">Dr. B. C. Roy Engineering College (Durgapur, WB.)</h4>
+
+						<p>
+							Computer Science & Engineering<br></br>
+							GPA: 9.40 (upto 5th sem)
+						</p>
+					</VerticalTimelineElement>
+
+
+					<VerticalTimelineElement
+						className="vertical-timeline-element--work"
+						contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+						contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+						date="2016 - 2018"
+
+						iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+						icon={<SchoolIcon />}
+					>
+						<h3 className="vertical-timeline-element-title">High School (2016-2019)</h3>
+						<h4 className="vertical-timeline-element-subtitle">St. Xavier's College (Ranchi, Jh.)</h4>
+						<p>
+							SUBJECTS:	Physics, Chemistry, Maths, Computer Science & English
+						</p>
+						<p>
+							Percentage: 80.00 %
+						</p>
+					</VerticalTimelineElement>
+
+					<VerticalTimelineElement
+						className="vertical-timeline-element--education"
+						contentStyle={{ background: 'rgb(0,0,128)', color: '#fff' }}
+						contentArrowStyle={{ borderRight: '7px solid  rgb(0,0,128)' }}
+						date="2016"
+						iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+						icon={<SchoolIcon />}
+					>
+						<h3 className="vertical-timeline-element-title">Matriculation (2016)</h3>
+						<h4 className="vertical-timeline-element-subtitle">GuruNanak Hr. Sec. School (Ranchi, Jh.)</h4>
+						<p>
+							CGPA: 10
+						</p>
+					</VerticalTimelineElement>
+
 				  
 				  
 				  <VerticalTimelineElement
