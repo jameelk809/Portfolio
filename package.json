@@ -10,20 +10,28 @@
     "url": "https://github.com/jameelk809"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@popperjs/core": "^2.11.5",
     "axios": "^0.19.2",
     "bootstrap": "^4.5.2",
     "gh-pages": "^2.2.0",
     "jquery": "^3.5.1",
+    "material-ui": "^0.20.2",
+    "material-ui-icons": "^1.0.0-beta.36",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
+    "react-avatar": "^4.1.0",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^16.14.0",
     "react-loading-skeleton": "^2.1.1",
+    "react-photo-gallery-react17": "^8.0.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.4",
     "react-typist": "^2.0.5",
+    "react-vertical-timeline-component": "^3.0.2",
     "typescript": "^3.9.7"
   },
   "scripts": {
