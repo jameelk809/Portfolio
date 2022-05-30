@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Kamran",
   middleName: "",
   lastName: "Jameel",
-  message: " Coding enthusiast | Passionate about changing the world with technology. ",
+  message: " Coding Enthusiast | Passionate about changing the world with technology. ",
   icons: [
     {
       image: "fa-github",
@@ -67,8 +67,8 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "jameelk809",
-  reposLength: 10,
-  specificRepos: [],
+  reposLength: 0,
+  specificRepos: ["Travelster", "NewsMonkey", "TextUtils", "Simple-LogIn-SignUp"],
 };
 
 // Leadership SECTION
