@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Kamran",
   middleName: "",
   lastName: "Jameel",
-  message: " Passionate about changing the world with technology. ",
+  message: " Coding enthusiast | Passionate about changing the world with technology. ",
   icons: [
     {
       image: "fa-github",
@@ -101,13 +101,13 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
+    { name: "C/C++", value: 65 },
+    { name: "Java", value: 80 },
+    { name: "HTML/CSS", value: 55 },
     { name: "SQL", value: 75 },
     { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
+    { name: "Django", value: 70 },
     { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
