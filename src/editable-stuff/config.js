@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/kamran.jpg"),
   imageSize: 375,
   message:
-    "I’m Kamran Jameel.",
+    "I’m Kamran Jameel. I'm a Computer Science Engineer undergraduate from Dr. BC Roy Engineering College, Durgapur, WB. I'm passionate about being an Engineer, who solves Challenging problems, using all the possible technologies such as programming, machine learning, statistical analysis, etc, and other practical tools.",
   resume: "https://drive.google.com/file/d/1ivQGlYEGTrVMK9fp-nKQ_N-mMFbaiTSU/view",
 };
 
@@ -67,7 +67,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "jameelk809",
-  reposLength: 4,
+  reposLength: 10,
   specificRepos: [],
 };
 
