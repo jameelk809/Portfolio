@@ -1,9 +1,8 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React from "react";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import './style.min.css';
 import SchoolIcon from '@material-ui/icons/School';
 import StarIcon from '@material-ui/icons/Star';
-import WorkIcon from '@material-ui/icons/Work';
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 
