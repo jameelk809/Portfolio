@@ -1,4 +1,3 @@
-<br />
 <p align="center">
   <h1 align="center">PORTFOLIO</h1>
 
@@ -82,7 +81,7 @@ You should have [`Node.js`](https://nodejs.org/en/) and [`Git`](https://git-scm.
 9. Congrats your site is up and running. To see it live, visit:
 
    ```https
-     https://<your-username>.github.io/home
+     https://<your-username>.github.io/Portfolio
    ```
 
    Next time if you make changes, repeat from step 8.

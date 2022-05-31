@@ -39,7 +39,7 @@ const Experience = () => {
 						iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 						icon={<SchoolIcon />}
 					>
-						<h3 className="vertical-timeline-element-title">High School (2016-2019)</h3>
+						<h3 className="vertical-timeline-element-title">High School (2016-2018)</h3>
 						<h4 className="vertical-timeline-element-subtitle">St. Xavier's College (Ranchi, Jh.)</h4>
 						<p>
 							SUBJECTS:	Physics, Chemistry, Maths, Computer Science & English
