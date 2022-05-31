@@ -1,7 +1,7 @@
 {
   "name": "developers-portfolio",
   "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
-  "homepage": "https://jameelk809.github.io/home",
+  "homepage": "https://jameelk809.github.io/Portfolio/",
   "version": "2.0.0",
   "private": true,
   "author": {
@@ -15,7 +15,6 @@
     "@popperjs/core": "^2.11.5",
     "axios": "^0.19.2",
     "bootstrap": "^4.5.2",
-    "gh-pages": "^2.2.0",
     "jquery": "^3.5.1",
     "material-ui": "^0.20.2",
     "material-ui-icons": "^1.0.0-beta.36",
@@ -57,5 +56,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
