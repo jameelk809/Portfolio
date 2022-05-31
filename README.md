@@ -3,47 +3,45 @@
   <h1 align="center">PORTFOLIO</h1>
 
   <p align="center">
-    It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Site URL / Demo: 
-    <a href="https://bibinvargheset.github.io">bibinvargheset.github.io</a>
+    It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. <br>Deployment: 
+    <a href="https://jameelk809.github.io/Portfolio/">jameelk809.github.io/Portfolio/</a>
     <br />
     <br />
   </p>
 </p>
 
-
-<!-- 
-[![Site preview](/public/social-image.png)](https://bibinvargheset.github.io/) -->
+[![Site Preview](/public/social-image.png)](https://jameelk809.github.io/Portfolio/)
 
 
 ## Table of Contents
 
-- [Technology Stack 🛠️](#technology-stack-)
-- [Structure ⚓](#structure-)
-- [Sharing 💗](#sharing-)
-- [Prerequisites 🍪](#prerequisites-)
-- [Setup And Deployment 🔧](#setup-and-deployment-)
-- [Contributing 🙌](#contributing-)
+- [Technology Stack](#technology-stack-)
+- [Structure](#structure-)
+- [Sharing](#sharing-)
+- [Prerequisites](#prerequisites-)
+- [Setup And Deployment](#setup-and-deployment-)
+- [Contributing](#contributing-)
 
-## Technology Stack 🛠️
+## Technology Stack
 
-Dependencies defined in package.json:
+Dependencies defined in `package.json`:
 
 - [Reactjs](https://reactjs.org/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Typist](https://github.com/jstejada/react-typist)
 - [GitHub API](https://developer.github.com/v3/repos/)
 
-## Structure ⚓
+## Structure
 
 -
 
 ## Sharing
 
-Project is open source. Feel free to make your own version. All you need to do is to fork this repository, edit [src/editable-stuff/config.js](./src/editable-stuff/config.js) and add resume. Mark star ⭐ if you like the project.
+Project is open source. Feel free to make your own version. All you need to do is to fork this repository, edit [`src/editable-stuff/config.js`](./src/editable-stuff/config.js) and add resume. Mark star ⭐ if you like the project.
 
 ## Prerequisites
 
-You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/) installed on your PC. You should also own a GitHub account.
+You should have [`Node.js`](https://nodejs.org/en/) and [`Git`](https://git-scm.com/) installed on your PC. You should also own a GitHub account.
 
 ## Setup And Deployment
 
@@ -81,7 +79,7 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
     npm run deploy
    ```
 
-   Or for deployment at \<username>.github.io, refer [READMEdocs/custom-deployment.md](./READMEdocs/custom-deployment.md) and [pages.js](./pages.js)
+   Or for deployment at \<username>.github.io, refer [`READMEdocs/custom-deployment.md`](./READMEdocs/custom-deployment.md) and [`pages.js`](./pages.js)
 
 9. Congrats your site is up and running. To see it live, visit:
 
@@ -91,7 +89,7 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
 
    Next time if you make changes, repeat from step 8.
 
-Facing issues? Feel free to contact at hashirshoaeb@gmail.com.
+Facing issues? Feel free to contact at jameelk809@gmail.com.
 
 ## Contributing 🙌
 
