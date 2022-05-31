@@ -98,7 +98,6 @@ Portfolio
             _stars.scss
             _typography.scss
 ```
--
 
 ## Sharing
 
